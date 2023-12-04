@@ -1,5 +1,5 @@
 [project]
-name = "mio"
+name = "email-io"
 version = "1.0"
 description = "An API wrapper for temp-mail.io"
 authors = [{name = "Egsagon", email = "egsagon.git@gmail.com"}]
