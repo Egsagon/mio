@@ -1,0 +1,24 @@
+[project]
+name = "mio"
+version = "1.0"
+description = "An API wrapper for temp-mail.io"
+authors = [{name = "Egsagon", email = "egsagon.git@gmail.com"}]
+license = {file = "LICENSE"}
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["mail", "temp", "API", 'wrapper']
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+dependencies = ["requests"]
+requires-python = ">=3.11"
+
+[project.urls]
+Repository = "https://github.com/Egsagon/mio"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
